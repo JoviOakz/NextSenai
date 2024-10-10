@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Menu op1="useEffect com fetch" op2="useEffect com axios" op3="terceira pagina" />
+        <Menu op1="useEffect com fetch" op2="useEffect com axios" op3="Página de infos" op4="Página do figma" />
         {children}
       </body>
     </html>

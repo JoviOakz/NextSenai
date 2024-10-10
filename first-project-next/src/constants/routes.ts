@@ -1,5 +1,6 @@
 export enum ROUTES {
     home = "/",
     axios = "/axios",
-    noHook = "/no-hook"
+    noHook = "/no-hook",
+    figma = "/figma"
 }

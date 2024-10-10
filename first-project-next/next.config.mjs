@@ -16,6 +16,10 @@ const nextConfig = {
             {
                 source: "/no-hook",
                 destination: "/NoHookPage"
+            },
+            {
+                source: "/figma",
+                destination: "/FigmaPage"
             }
         ]
     }
