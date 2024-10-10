@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    images: {
+        remotePatterns: [{protocol: "https", hostname: "rickandmortyapi.com"}]
+    },
     rewrites: () => {
         return [
             {
@@ -9,6 +12,10 @@ const nextConfig = {
             {
                 source: "/axios",
                 destination: "/AxiosPage"
+            },
+            {
+                source: "/no-hook",
+                destination: "/NoHookPage"
             }
         ]
     }
